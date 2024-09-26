@@ -1,4 +1,4 @@
-/*
+*
 BLAU: #1c5759
 MARRÓ: #86726a
 
@@ -174,7 +174,6 @@ font-family: 'dosis'; text
     width: 70%; 
     
 }
-
 .about .fotos {
     text-align: center; 
     
@@ -191,7 +190,11 @@ font-family: 'dosis'; text
     width: 40%;
     margin: 0 auto;
     padding-bottom: 20px;
+    margin-bottom: 0px;
     
+}
+.works .final{
+    margin-bottom: 40px;
 }
 .works .videos{
     align-items: center;
@@ -217,7 +220,7 @@ font-family: 'dosis'; text
     margin-bottom: 30px;
 } 
 .works .design{
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 .works #gd{
     padding-top: 30px;
@@ -231,11 +234,12 @@ font-family: 'dosis'; text
     
 }
 .works  h4{
-    padding-top: 10px;
+    padding-top: 0px;
     font-family: 'dosis', sans-serif;
     color:#118c8c ;
     font-size: 20px;
     text-align: center;
+    margin-top: 0px;
     
 }
 .works .photography h3{
@@ -255,6 +259,7 @@ font-family: 'dosis'; text
   width: 40%;
   margin: 0 auto;
     padding-bottom: 20px;
+    
 }
 .slick-prev:before, .slick-next:before {
     color: #86726a;
