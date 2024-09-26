@@ -1,0 +1,347 @@
+/*
+BLAU: #1c5759
+MARRÓ: #86726a
+
+blau nou: 118c8c
+
+
+font-family: 'eb garamond'; titols i lo d dalt
+font-family: 'dosis'; text
+
+
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+header{
+    font-family: 'eb garamond';
+    font-weight: 600;
+    padding: 30px 0px 0px 0px;
+}*/
+
+p{
+    font-family: 'dosis', sans-serif;
+    font-size: 19px;
+    color: #86726a;
+    line-height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+
+/*HEADER*/
+header{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+header #si {
+    color: #118c8c;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 40px;
+    font-family: 'eb garamond', sans-serif;
+}
+header li{
+    color: #86726a;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 30px;
+    font-family: 'eb garamond'
+}
+header .menu a{
+    color: #86726a;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 30px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+header a:hover{
+    cursor: pointer;
+    color: #118c8c;
+}
+
+/*BUTTONS*/
+.butons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.btn{
+    background-color: #86726a;
+    border-radius: 30px;
+    color: white;
+    font-family: 'eb garamond', serif;
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn:hover{
+    background-color: #118c8c;
+    color: white;
+}
+
+/*HOME*/
+.me img {
+    height: 600px;
+    display: block;
+   /* margin-top: 45px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.me {
+    position: relative;
+    margin-top: auto;
+}
+.me h1{
+    font-family: 'eb garamond', serif;
+    font-size: 100px;
+    color: #118c8c;
+    line-height: 1.4;
+    position: absolute;
+    top: 30px;
+    left: 260px;
+    text-align: right
+}
+.me h2{
+   /* font-family: 'dosis', sans-serif;
+    font-size: 30px;
+    color: #9b837b;*/
+    
+    font-family: 'eb garamond', serif;
+    font-size: 100px;
+    color: #118c8c;
+    
+    position: absolute;
+    top: 360px;
+    left: 940px; 
+}
+.me .hi{
+    padding-left: 90px;
+    
+}
+.text p{
+    
+    line-height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    text-align: center;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+/*ABOUT
+font-family: 'eb garamond'; titols i lo d dalt
+font-family: 'dosis'; text
+*/
+.about .img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about .img img{
+    width: 30%;
+}
+.about .img p{
+    margin-left: 40px;
+    
+}
+.about .text{
+    margin-top: 40px;
+
+}
+.about .text p{
+    text-align: justify;
+
+}
+.about .text p{
+    margin-top: 0px;
+    
+}
+.about .p p{
+    margin-bottom: 60px;
+    
+}
+.about .fotos img{
+    width: 70%; 
+    
+}
+
+.about .fotos {
+    text-align: center; 
+    
+}
+
+
+/*WORKS*/
+.works{
+     display: flex;
+    flex-direction: column;
+}
+.works video{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+.works .videos{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.works .videoss{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.works .videoss video{
+    width: 30%
+}
+.works h1{
+    font-family: 'eb garamond', serif;
+    color: #118c8c;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+} 
+.works .design{
+    margin-bottom: 60px;
+}
+.works #gd{
+    padding-top: 30px;
+}
+.works .design h3{
+    padding-top: 1px;
+    font-family: 'dosis', sans-serif;
+    color:#86726a ;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.works  h4{
+    padding-top: 10px;
+    font-family: 'dosis', sans-serif;
+    color:#118c8c ;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.works .photography h3{
+    padding-top: 10px;
+    font-family: 'dosis', sans-serif;
+    color: #86726a;
+    font-size: 20px;
+    text-align: center;
+}
+.nur video{
+    width: 10%
+}
+.works .photography img{
+    width: 30%;
+}
+.works img{
+  width: 40%;
+  margin: 0 auto;
+    padding-bottom: 20px;
+}
+.slick-prev:before, .slick-next:before {
+    color: #86726a;
+}
+#sam{
+    width: 30%;
+}
+
+/*WHY
+BLAU: #1c5759
+MARRÓ: #86726a
+font-family: 'eb garamond'; titols i lo d dalt
+font-family: 'dosis'; text */
+.why h1{
+    font-family: 'eb garamond', serif;
+    color: #118c8c;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+}
+.why {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*CONTACT*/
+.contact{
+    background-color: #86726a;
+    padding: 80px 0px;
+   
+}
+.contact .formulari{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contact .formulari{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact h1{
+    font-family: 'dosis', sans-serif;
+    color: #86726a;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.contact .formulari form input, .contact .formulari form textarea{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: 'dosis', sans-serif;
+    color: #118c8c;
+    background-color: white;
+    border:1.5px solid #1c5759;
+}
+.contact #send{
+    background-color: #86726a;
+    color: white;
+    border: none;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.contact .cont {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact a {
+    color: #118c8c;
+    text-decoration: none;
+    
+}
+.contact a:hover{
+    cursor: pointer;
+    color: #86726a;
+}
+
