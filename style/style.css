@@ -185,6 +185,7 @@ font-family: 'dosis'; text
 .works{
      display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .works video{
     width: 40%;
